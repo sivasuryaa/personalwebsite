@@ -1,0 +1,34 @@
+.btn {
+	&-custom {
+		width: 12rem;
+		height: 3rem;
+		margin-top: 1.5rem;
+		margin-right: 2rem;
+		margin-left: 2rem;
+	}
+
+	&-danger {
+		border-color: transparent;
+	}
+	&-resume {
+		background-color: $color-primary;
+	}
+
+	&-more-about-me {
+		background-color: transparent;
+		color: inherit;
+		border: 1.5px solid #1d2124;
+	}
+}
+
+.social-icons {
+	margin-top: 32px;
+	margin-bottom: 32px;
+	&-label {
+		color: $color-black-light;
+	}
+}
+
+.fas {
+	padding-right: 10px;
+}

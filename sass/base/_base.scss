@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	z-index: 0;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+.loaded-page {
+	opacity: 0;
+}

@@ -1,0 +1,28 @@
+.section-padding {
+	padding-top: $section-padding-top;
+	padding-bottom: $section-padding-bottom;
+}
+
+.section-margin {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.title-border h1 {
+	position: relative;
+	&::after {
+		content: "";
+		position: absolute;
+		background-color: $color-primary;
+		height: 2px;
+		width: 3rem;
+		top: 125%;
+		left: 50%;
+		transform: translateX(-50%);
+		display: block;
+	}
+}
+
+.box-shadow {
+	box-shadow: 0 1px 15px rgba(27, 31, 35, 0.15);
+}
